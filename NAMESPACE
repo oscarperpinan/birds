@@ -1,0 +1,15 @@
+import("methods")
+importFrom("utils", 
+           "read.csv")
+importFrom("lattice", 
+           "xyplot")
+
+export("readBird", 
+       "newFlock")
+
+exportClasses("bird", 
+              "flock")
+
+exportMethods("show", 
+              "as.data.frame", 
+              "xyplot")
